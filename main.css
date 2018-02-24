@@ -1,0 +1,241 @@
+/*css file*/
+*{margin:0;
+padding:0;}
+body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family:Times New Roman;
+	background:#f1f1f1;
+}
+header ,footer
+{
+	
+	background-image:linear-gradient(to top,#151515,#2a2a2a,#000000);
+	width:100%;
+	height:95px;
+	color:white;
+	font-size:110%;
+	padding:1%;
+	
+}
+footer {font-size:80%;}
+header em{float:left;}
+header h2
+{
+	margin-left:20%;
+	font-size:45px;
+	font-weight:200;
+	float:left;
+}
+header img 
+{
+	width:8%;
+	height:50px;
+	float:left;
+	margin:1%;
+	border-radius:55%;
+	
+}
+input 
+{
+	margin-top:10px;
+	size:35%;
+}
+
+header #track
+{
+	padding:5px;
+	margin-left:70%;
+	color:white;
+	background:#2a2a2a;
+	border:1px solid white;
+	border-radius:3px;
+	
+}
+nav{background-color:#7e7e7e;
+height:30px;
+padding:10px;
+
+color:black;
+margin : 0 auto;
+}				/*doubt*/
+nav ul li 
+{
+	font-weight:200;
+	font-size:25px;
+	text-align:center;
+	float:right;
+	margin-right:15%;
+	list-style-type:none;
+	margin-top:0;
+	cursor: pointer;
+	
+}
+.emer a{text-decoration:none;
+			color:black;	}
+.fa a{
+			text-decoration:none;
+			color:black;			/*fa is a link to other page*/
+	}
+.fa a:hover , .emer a:hover , .ser:hover
+{
+	color:#ffffff;
+	border-radius:3px;
+	text-decoration:underline;
+	
+}
+
+nav ul li .ser-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1; 
+}
+
+
+.ser .ser-content {
+    
+	text-align:left;
+	border-bottom-right-radius:10%;
+	background-color:#ededed;
+	padding-left:3%;
+}
+.ser .ser-content a{color:grey;}
+.ser-content a:link
+{ text-decoration:none; }
+.ser-content a:hover 
+{		
+	background-color: #f1f1f1;
+	text-align:left;
+	padding:1%;
+	color:black;
+	text-decoration:none;
+}
+aside a:visited{color:#151515;}
+aside a:link{padding:4px;}
+section{
+			width:80%;
+			margin:0 auto;
+			background-color:#e0e0e0;
+			height:400px;
+			}
+
+#homepg {
+         height:300px;
+			margin:3% auto;
+			
+			width:75%;
+			border:2px double black;
+				border-radius:3px;}
+section aside
+{
+	clear:both;
+	float:left;
+	height:300px;
+	width:15%;
+	border-right:1px solid black;
+	margin-top:2%;
+	padding:2% 1%;
+}
+section article
+{
+	width:75%;
+	float:right;
+	
+}
+
+article p{
+	z-axis:1;
+	font-size:20px;
+	text-align:center;
+	color:#ff6030;
+	padding:15% 3% 0 0;
+}
+
+footer
+{
+	clear:both;
+	text-align:center;
+	width:100%;
+	height:20px;
+}
+
+@media screen and (max-width:1000px)
+{
+	header 
+	{
+		height:100px;
+		font-size:85%;
+	}
+	
+	
+	
+	
+	nav{height:100px;}
+	nav ul li 
+	{
+		font-size:100%;
+		width:100%;
+		font-size:24px;
+	}
+	.ser:hover .ser-content {
+		position:absolute;
+		text-align:right;
+		border-radius:0;
+	}
+	.ser-content  a:link
+	{ 
+		text-decoration:none; 
+		color:red;
+	
+	}	
+	section{
+			
+			height:500px;
+			}
+	section aside{
+		width:100%;
+		height:100px;
+	}
+	section article{
+		width:100%;
+		
+	}
+	
+}
+@media only screen and (max-width:500px)
+{
+	header 
+	{
+		height:120px;
+		font-size:55%;
+	}
+	header img 
+{
+	width:14%;
+	height:80px;
+	
+}
+header h2
+{
+	margin-left:10%;
+	font-size:30px;
+	font-weight:200;
+	
+}
+section aside{
+		margin-bottom:5px;
+	}
+	header #track
+{
+	
+	margin-left:60%;
+	
+	
+}
+}
